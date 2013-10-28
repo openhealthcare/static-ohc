@@ -1,0 +1,158 @@
+/* Bootstrap overrides */
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+a {
+    color: #414141;
+}
+a:hover {
+    color: #e57f7a;
+    text-decoration: none;
+}
+
+/* Our styles */
+
+.justify {
+    text-align: justify;
+}
+
+header {
+    padding: 30px 0px;
+    background: #387e97;
+    color: #1d1d1b;
+}
+
+header a {
+    font-size: 2em;
+    color: #414141;
+    text-decoration: none;
+    margin: 0px;
+    height: 200px;
+    padding: 46px 12px 52px 12px;
+}
+
+header a:hover {
+    color: white;
+    background: #414141;
+    text-decoration: none;
+}
+
+header a.img:hover {
+    color: #414141;
+    text-decoration: none;
+    background: #387e97;
+}
+
+header span {
+    background: black;
+    color: #f4b119;
+    padding: 2em 1.6em;
+    float: right;
+}
+
+header h1 {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    float: right;
+    color: #1d1d1b;
+    opacity: 0.3;
+}
+
+.row-fluid .service {
+    min-height: 200px;
+}
+
+.service img {
+    max-height: 70px;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    color: #f4b119;
+    padding: 30px 0px;
+}
+
+footer a {
+    color: #f4b119;
+    text-decoration: underline;
+}
+
+h2 {
+    clear: both;
+}
+article {
+    margin: 24px 0px;
+    padding: 6px;
+    clear: both;
+    min-height: 200px;
+    background: #d3ded8;
+}
+
+article.product,
+article.lead {
+    /* background: #e57f7a; */
+    background: #8ec5c2;
+}
+
+article.sub {
+    min-height: 100px;
+}
+
+article h2 {
+    margin: 12px 24px;
+}
+
+article h3 {
+    margin: 12px 24px;
+    float: left;
+    width: 40%;
+}
+
+article.sub h3 {
+    min-height: 100px;
+}
+
+article h4 {
+    width: 40%;
+    float: left;
+    margin: 12px;
+}
+
+article p {
+    padding: 12px;
+    font-size: 17px;
+}
+
+article.product p {
+    width: 60%;
+    float: left;
+    font-size: 20px;
+    padding: 24px;
+}
+
+article.lead p {
+    padding: 0px 24px;
+}
+
+article img {
+    width: 40%;
+    background: white;
+}
+
+#clients img {
+    width: 100%;
+}
+
+.lhcolimg {
+    margin: 24px 0px;
+    width: 100%;
+}
