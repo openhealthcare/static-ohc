@@ -28,6 +28,10 @@ header {
     color: #1d1d1b;
 }
 
+header .hidden-xs {
+    display: inline !important;
+}
+
 header a {
     font-size: 2em;
     color: #414141;
@@ -139,6 +143,11 @@ article.product p {
     padding: 24px;
 }
 
+.visible-xs article.product p {
+    float: none;
+    width: 100%;
+}
+
 article.lead p {
     padding: 0px 24px;
 }
@@ -149,7 +158,8 @@ article img {
 }
 
 #clients img {
-    width: 100%;
+    width: 165px;
+    height: auto;
 }
 
 .lhcolimg {

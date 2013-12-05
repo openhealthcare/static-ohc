@@ -21,13 +21,13 @@
         <a href="/" class="img">
           <img src="/images/toplogo.png">
         </a>
-        <a href="/about/">
+        <a href="/about/" class="hidden-xs">
           about
         </a>
-        <a href="http://www.openhealthcare.org.uk/?page_id=334">
+        <a href="http://www.openhealthcare.org.uk/?page_id=334" class="hidden-xs">
           blog
         </a>
-        <h1>
+        <h1 class="visible-lg">
           <i>
             Usability in healthcare technology
           </i>
@@ -35,6 +35,16 @@
       </header>
     </div>
     {{ content }}
+    <div class="navbar visible-xs">
+      <header>
+        <a href="/about/">
+          about
+        </a>
+        <a href="http://www.openhealthcare.org.uk/?page_id=334">
+          blog
+        </a>
+      </header>
+    </div>
     <div class='navbar navbar-static-bottom'>
       <footer>
         <div class='row-fluid'>
