@@ -1,13 +1,13 @@
-PROJ = "eLCID"
+PROJ = "OHC Static site"
 
 task :build do
   p "Building OHC Static Site"
   sh "rm -rf _build"
   sh "rm -rf dist"
+  sh "mkdir dist"
   sh "jekyll build"
   sh "cp -rva _site _build"
   sh "mv _build/index.html _build/stat_index.html"
-  sh "mkdir dist"
   sh "cd _build/&& tar zcvf static.ohc.tar.gz *"
   sh "mv _build/static.ohc.tar.gz dist/"
 end
