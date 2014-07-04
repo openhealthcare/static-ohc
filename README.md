@@ -9,4 +9,4 @@ Development environment as a vagrant VM available [here](https://github.com/open
     $ rvm use 1.9.3@ohcstatic
     $ jekyll serve -w
 
-Source code will be mounted to the guest at developer/src/static-ohc
+Source code will be mounted to the host at developer/src/static-ohc
