@@ -1,1 +1,2 @@
-jekyll
+source :rubygems
+gem 'jekyll'
